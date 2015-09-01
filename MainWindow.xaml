@@ -1,0 +1,11 @@
+﻿<Window x:Class="WPFTaskRun.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="23" Margin="197,82,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="197,123,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSubmit" Click="btnSubmit_Click" Content="Button" HorizontalAlignment="Left" Margin="224,168,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
