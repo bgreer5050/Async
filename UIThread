@@ -1,0 +1,9 @@
+This is the equivalant of Dispatcher.Invoke for a Windows Store app:
+
+var dispatcher = Windows.UI.Core.CoreWindow.GetForCurrentThread().Dispatcher;
+                        dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                        {
+                            vm.Errors.Add(exc.Message.ToString());
+                        });
+                        
+                        
